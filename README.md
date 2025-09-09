@@ -70,13 +70,13 @@ main = scotty 3000 $ do
         randomAdvice <- liftIO getRandomAdvice   
         text randomAdvice
 ```
-### Video
+### Vídeo
 
 https://github.com/user-attachments/assets/47990084-0d7c-4b9e-a6d4-a35b9d619d59
 
 ### Exemplo 02
 O conceito do programa é o mesmo do Exemplo 01, a única diferença é a saída, que ele empacota o conselho em um JSON
-### Video
+### Vídeo
 
 https://github.com/user-attachments/assets/0aeb2709-95a3-46a0-8a02-060b5c61de2d
 
@@ -117,6 +117,11 @@ Retorna uma lista em JSON com todos pontos de interesse cadastrados.
         text (pack response)
 ```
 Por meio da URL, são passadas coordenadas e serão retornados os pontos de interesse que estiverem a até 1,5 km de distância. Esse valor pode ser alterado pelo usuário.
+
+## Vídeo
+
+https://github.com/user-attachments/assets/dcda66ad-4e3f-459f-8750-79544c1abec7
+
 
 ## Referencias
 
